@@ -10,7 +10,7 @@ import service.SocialFeedService
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(val socialFeedService: SocialFeedService) extends Controller {
+class HomeController @Inject() extends Controller {
 
   /**
    * Create an Action to render an HTML page.
