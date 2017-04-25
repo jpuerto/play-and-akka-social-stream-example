@@ -1,4 +1,4 @@
-package controllers
+package service
 
 import java.time.Instant
 
@@ -9,7 +9,6 @@ import akka.stream.scaladsl._
 import akka.stream.testkit.scaladsl.{TestSink, TestSource}
 import ch.becompany.social.{Status, User}
 import org.scalatest.FlatSpec
-import service.SocialFeedService
 
 import scala.util._
 import scalatags.Text.all._

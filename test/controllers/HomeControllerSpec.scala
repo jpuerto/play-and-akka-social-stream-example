@@ -3,7 +3,7 @@ package controllers
 import org.scalatestplus.play._
 import play.api.test._
 import play.api.test.Helpers._
-import service.SocialFeedService
+import service.SocialFeedSpec
 
 /**
  * Add your spec here.
